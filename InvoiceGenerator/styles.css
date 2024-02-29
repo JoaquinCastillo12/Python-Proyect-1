@@ -1,0 +1,53 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para el contenedor del formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título del formulario */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que el padding aumente el tamaño total */
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de enviar al pasar el mouse sobre él */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
